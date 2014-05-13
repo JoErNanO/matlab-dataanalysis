@@ -52,7 +52,7 @@ fprintf('Done. \n');
 
 %% Create output directory
 % Create the folder if it doesn't exist already.
-dirname = 'data';
+dirname = 'data/';
 if ~exist(dirname, 'dir')
   mkdir(dirname);
 end
@@ -71,7 +71,7 @@ for i = 1:size(data, 2)
     % Get channel data
     channel = data(:, i);
     % Save data
-    save(['dataa/channel', num2str(i), '.mat'], 'channel');
+    save([dirname, 'channel', num2str(i), '.mat'], 'channel');
 end
 toc;
 fprintf('Done. \n');
