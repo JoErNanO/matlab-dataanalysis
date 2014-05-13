@@ -1,4 +1,4 @@
-matlab-dataanalysis
-===================
+MATLAB Data Analysis Tools
+==========================
 
-My data analysis MATLAB scripts.
+This repository contains my data analysis MATLAB scripts and tools.
